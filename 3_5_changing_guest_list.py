@@ -3,12 +3,14 @@
 
 # Importing the previous exercise to add to it:
 
-import importlib
+# This package can be used when you are dealing with a file that starts with a number:
 
-guest_list = importlib.import_module("3-4_guest_list", "3-4_guest_list")
+from importlib import import_module
 
+fox = import_module("3_4_guest_list")
 
-# import fox
+# Alternative Option:
+# fox = __import__("3_4_guest_list")
 
 # Guest Removal:
 
