@@ -22,5 +22,4 @@ del guests[1]
 
 del guests[0]
 
-
 print(guests)
