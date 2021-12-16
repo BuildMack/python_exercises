@@ -8,5 +8,8 @@ glossary = {
     'PEP8': 'Python Enhancement Proposal 8'
     }
 
-for word in glossary:
-    print(f'{word.title()}:\n{glossary[word]}\n')
+
+print(f"Tuple:\n{glossary['tuple']}\n")
+print(f"Conditional Expression:\n{glossary['conditional expression']}\n")
+print(f"Immutable:\n{glossary['immutable']}\n")
+print(f"PEP8:\n{glossary['PEP8']}\n")
