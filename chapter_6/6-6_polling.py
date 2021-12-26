@@ -1,19 +1,22 @@
 # Exercise 6-6 from Python Crash Course Book
 # Completed by Mack Sell
 
-rivers = {
-    'nile': 'egypt',
-    'mississipi river': 'usa',
-    'yangtze river': 'china'
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'george': 'ruby',
+    'phil': 'pyton'
     }
 
-for river in rivers:
-    print(f"The {river.title()} is located in {rivers[river].title()}")
+people = ['carl','steve','sarah','jen']
 
-print('\nAll the rivers included are:')
-for river in rivers:
-    print(river.title())
-
-print('\nAll the countries included are:')
-for river in rivers:
-    print(rivers[river].title())
+for person in people:
+    for pollTaker in favorite_languages:
+        if person == pollTaker:
+            print('Thank you for already completing this poll.')
+            print(f'Your favourite language is: {favorite_languages[person]}')
+        
+        break
+    
+    print(f'{person}, would you please take this poll?')
+        
