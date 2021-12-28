@@ -2,29 +2,27 @@
 # Completed by Mack Sell
 
 
-person_1 = {
-    'first_name': 'Ben',
-     'last_name': 'Saadia',
-     'age': 23, 
-     'city': 'Kingston'
+pet_1 = {
+    'animal': 'dog',
+     'owner': 'steve',
+     'age': 5, 
      }
 
 
-person_2 = {
-    'first_name': 'Sarah',
-     'last_name': 'Conner',
-     'age': 27, 
-     'city': 'Toronto'
+pet_2 = {
+    'animal': 'cat',
+     'owner': 'bryan',
+     'age': 6, 
      }
 
-person_3 = {
-    'first_name': 'Bob',
-     'last_name': 'Sager',
-     'age': 30, 
-     'city': 'San Diego'
+pet_3 = {
+    'animal': 'hamster',
+     'owner': 'roger',
+     'age': 3, 
      }
 
-people =[person_1,person_2,person_3]
 
-for person in people:
-    print(f"{person['first_name']} {person['last_name']} lives in {person['city']} and is {person['age']}")
+pets = [pet_1, pet_2, pet_3]
+
+for pet in pets:
+    print(f"{pet['owner'].title()} has a {pet['animal']} that is {pet['age']} years old.")
