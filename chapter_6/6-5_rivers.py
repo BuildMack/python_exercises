@@ -7,13 +7,13 @@ rivers = {
     'yangtze river': 'china'
     }
 
-for river in rivers:
-    print(f"The {river.title()} is located in {rivers[river].title()}")
-
+for river, location in rivers.items():
+    print(f"The {river.title()} is located in {location.title()}!")
+    
 print('\nAll the rivers included are:')
 for river in rivers:
-    print(river.title())
+    print(f'\t{river.title()}')
 
 print('\nAll the countries included are:')
-for river in rivers:
-    print(rivers[river].title())
+for location in rivers.values():
+    print(f'\t{location.title()}')

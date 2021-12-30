@@ -3,7 +3,7 @@
 
 favorite_languages = {
     'jen': 'python',
-    'sarah': 'c',
+    'sarah': 'C',
     'george': 'ruby',
     'phil': 'pyton'
     }
@@ -11,12 +11,10 @@ favorite_languages = {
 people = ['carl','steve','sarah','jen']
 
 for person in people:
-    for pollTaker in favorite_languages:
-        if person == pollTaker:
-            print('Thank you for already completing this poll.')
+    if person in favorite_languages.keys():
+            print(f'\n{person.title()}, thank you for already completing this poll.')
             print(f'Your favourite language is: {favorite_languages[person]}')
-        
-        break
     
-    print(f'{person}, would you please take this poll?')
+    else:
+        print(f'\n{person.title()}, would you please take this poll?')
         

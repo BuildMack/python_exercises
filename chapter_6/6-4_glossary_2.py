@@ -8,5 +8,11 @@ glossary = {
     'PEP8': 'Python Enhancement Proposal 8'
     }
 
-for word in glossary:
-    print(f'{word.title()}:\n{glossary[word]}\n')
+for word, definition in glossary.items():
+    print(f'{word.title()}:\n{definition}\n')
+
+glossary['set'] = 'A mutable, unordered class (uses curly brackets).'
+
+for word, definition in glossary.items():
+    print(f'{word.title()}:\n{definition}\n')
+
