@@ -25,4 +25,5 @@ pet_3 = {
 pets = [pet_1, pet_2, pet_3]
 
 for pet in pets:
-    print(f"{pet['owner'].title()} has a {pet['animal']} that is {pet['age']} years old.")
+    print(f"{pet['owner'].title()} has a {pet['animal']}",
+    f"that is {pet['age']} years old.")
