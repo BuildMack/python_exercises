@@ -23,7 +23,8 @@ person_3 = {
      'city': 'San Diego'
      }
 
-people =[person_1,person_2,person_3]
+people =[person_1, person_2, person_3]
 
 for person in people:
-    print(f"{person['first_name']} {person['last_name']} lives in {person['city']} and is {person['age']}")
+    fullname = person['first_name'] + ' ' + person['last_name']
+    print(f"{fullname} lives in {person['city']} and is {person['age']}.")
