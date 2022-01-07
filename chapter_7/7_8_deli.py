@@ -1,4 +1,4 @@
-# Exercise 7-7 from Python Crash Course Book
+# Exercise 7-8 from Python Crash Course Book
 # Completed by Mack Sell
 
 sandwich_orders = ['ruben', 'tomato', 'ham', 'turkey', 'cucumber']
