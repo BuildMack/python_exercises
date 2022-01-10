@@ -15,3 +15,11 @@ while active:
         dream_vacations.append(dream_vacation)
 
 print(f'The vacations identified are: {dream_vacations}')
+
+unique_vacations = []
+
+for vacation in dream_vacations:
+    if vacation not in unique_vacations:
+        unique_vacations.append(vacation)
+
+print(f'The unique vacations identified are: {unique_vacations}')
