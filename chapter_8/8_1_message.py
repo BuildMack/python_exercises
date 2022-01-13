@@ -2,6 +2,6 @@
 # Completed by Mack Sell
 
 def message():
-    print("Hello User!")
+    print("\nHello User!")
 
 message()
