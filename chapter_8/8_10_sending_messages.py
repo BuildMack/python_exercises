@@ -13,3 +13,5 @@ def send_messages(texts):
     return sent_texts
 
 print(send_messages(conversation))
+
+print(conversation)
